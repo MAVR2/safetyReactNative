@@ -15,7 +15,7 @@ export default function Loginscreen({ navigation }) {
 
         if (email === 'demo@email.com' && password === '1234') {
         Alert.alert('Éxito', 'Inicio de sesión correcto');
-        navigation.navigate('Home');
+        navigation.navigate('Admin');
         } else {
         Alert.alert('Error', 'Credenciales incorrectas');
         }
@@ -55,7 +55,7 @@ export default function Loginscreen({ navigation }) {
             buttonStyle={styles.button}
         />
         </View>
-    );``
+    );
 }
 
 const styles = StyleSheet.create({
