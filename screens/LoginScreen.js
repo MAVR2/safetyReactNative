@@ -14,8 +14,11 @@ export default function Loginscreen({ navigation }) {
         }
 
         if (email === 'demo@email.com' && password === '1234') {
-        Alert.alert('Éxito', 'Inicio de sesión correcto');
-        navigation.navigate('Admin');
+            Alert.alert('Éxito', 'Inicio de sesión correcto')
+            navigation.navigate('Admin');
+        }if(email === 'super@email.com' && password === '1234') {
+            Alert.alert('Éxito', 'Inicio de sesión correcto');
+            navigation.navigate('Super');
         } else {
         Alert.alert('Error', 'Credenciales incorrectas');
         }
@@ -65,7 +68,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     title: {
-        fontSize: 24,
+        fontSize: 25,
         marginBottom: 24,
         textAlign: 'center',
         fontWeight: 'bold',
