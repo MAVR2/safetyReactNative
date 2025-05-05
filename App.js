@@ -7,6 +7,7 @@ import AdminScreen from './screens/adminScreen';
 import HorariosScreen from './screens/HorariosScreen';
 import NewRecorridoScreen from './screens/NewRecorridoScreen';
 import SuperScreen from './screens/superScreen';
+import DetalleReporteScreen from './screens/detalleRecorridoScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name="Admin" component={AdminScreen} />
           <Stack.Screen name="Horarios" component={HorariosScreen} />
           <Stack.Screen name="Recorridos" component={NewRecorridoScreen}/>
+          <Stack.Screen name ="Detalle" component={DetalleReporteScreen}/>
         <Stack.Screen name='Super' component={SuperScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
