@@ -29,17 +29,30 @@
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/MAVR2/safety-guardian.git
-cd safety-guardian
+git clone https://github.com/MAVR2/safetyReactNative.git
+cd safetyReactNative
 ```
 
 2. Instala las dependencias
-Asegúrate de tener instalado node, npm y expo-cli.
 ```bash
-npm install expo-cli 
+npm install
 ```
 3. Inicia la app
 ```bash
 npx expo start
 ```
-Luego escanea el código QR con la app Expo Go en tu teléfono para probar la aplicación.
+Aparecera un QR en consola, usa tu celular andoroid o IOS para usar la aplicacion, o bien la aplicacion se ejecuta en el puerto de tu computadora.
+
+## 🔐 Credenciales de acceso (demo)
+Puedes acceder a la demo con los siguientes usuarios:
+
+  Admin
+  📧 demo@email.com
+  🔑 1234
+  
+  Supervisor
+  📧 super@email.com
+  🔑 1234
+
+
+## Con react Native el codigo funciona tanto para Web, andorid y iOS (aun con errores),
